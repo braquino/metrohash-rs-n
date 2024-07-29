@@ -1,6 +1,6 @@
 {
   "name": "metrohash-rs-n-linux-x64-gnu",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "url": "https://github.com/braquino/metrohash-rs-n"
   },
