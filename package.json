@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "main": "index.js",
   "types": "index.d.ts",
+  "repository": {
+    "url": "https://github.com/braquino/metrohash-rs-n"
+  },
   "napi": {
     "name": "metrohash-rs-n",
     "triples": {
