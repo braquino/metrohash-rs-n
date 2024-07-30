@@ -1,13 +1,13 @@
 [package]
 edition = "2021"
 name = "metrohash-rs-n"
-version = "0.1.0"
+version = "1.0.0"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
-metrohash = "1.0.6"
+metrohash = { path = "./depend/metrohash-rs" }
 # Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
 napi = { version = "2.12.2", default-features = false, features = ["napi4"] }
 napi-derive = "2.12.2"

@@ -310,6 +310,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { metrohash128 } = nativeBinding
+const { metrohash128, metrohash64 } = nativeBinding
 
 module.exports.metrohash128 = metrohash128
+module.exports.metrohash64 = metrohash64
