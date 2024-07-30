@@ -1,0 +1,16 @@
+[package]
+name = "metrohash"
+version = "1.0.6"
+authors = ["arthurprs <arthurprs@gmail.com>"]
+description = "Rust implementation of MetroHash, a high quality, high performance hash algorithm"
+readme = "README.md"
+keywords = ["hash", "hashmap", "metro", "metrohash"]
+categories = ["algorithms"]
+homepage = "https://github.com/arthurprs/metrohash-rs"
+repository = "https://github.com/arthurprs/metrohash-rs"
+documentation = "https://docs.rs/metrohash"
+license = "MIT"
+
+[dev-dependencies]
+fnv = "1.0.5"
+twox-hash = "1.1.0"
