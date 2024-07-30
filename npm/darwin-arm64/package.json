@@ -1,6 +1,6 @@
 {
   "name": "metrohash-rs-n-darwin-arm64",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
     "url": "https://github.com/braquino/metrohash-rs-n"
   },
